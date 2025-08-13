@@ -1,9 +1,9 @@
 import React from "react";
-import beauty from '../assets/images/beauty.png';
-import flower from '../assets/images/flower.png';
-import job from '../assets/images/job.png';
-import candyc from '../assets/images/candyc.png';
-import web from '../assets/images/web.png';
+import book from '../assets/images/book.png';
+import home from '../assets/images/home.png';
+import event from '../assets/images/event.png';
+import zara from '../assets/images/zara.png';
+import clean from '../assets/images/clean.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -12,53 +12,54 @@ function Project() {
             <h1>Projects</h1>
             <div className="projects-grid">
                 <div className="project">
-                    <a href="https://www.figma.com/design/Mo426xpt00aaEaCNgz9TF0/skincare?node-id=0-1&p=f&t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
-                        <img src={beauty} className="zoom" alt="Skin care app thumbnail" width="100%" />
+                    <a href="https://www.figma.com/design/uddBJqh8IVEK8shVKBW9cD/Books-Delivery-App?node-id=1669-162202&p=f&t=0vbMYeYMaH89pXaO-0" target="_blank" rel="noreferrer">
+                        <img src={book} className="zoom" alt="book delivery thumbnail" width="50%" />
                     </a>
-                    <a href="https://www.figma.com/design/Mo426xpt00aaEaCNgz9TF0/skincare?node-id=0-1&p=f&t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
-                        <h2>Skin Care App</h2>
+                    <a href="https://www.figma.com/design/uddBJqh8IVEK8shVKBW9cD/Books-Delivery-App?node-id=1669-162202&p=f&t=0vbMYeYMaH89pXaO-0" target="_blank" rel="noreferrer">
+                        <h2>Books Delivery App</h2>
                     </a>
-                    <p>Designed the user interface in Skin Care App</p>
+                    <p>Designed the user interface in book delivery App</p>
                 </div>
 
                 <div className="project">
-                    <a href="https://www.figma.com/design/HLrb6d5KU41anbWdMXu1p8/Event?node-id=41-204&t=ZZAziILlNVxkU2gJ-0" target="_blank" rel="noreferrer">
-                        <img src={flower} className="zoom" alt="Flower shop thumbnail" width="100%" />
+                    <a href="https://www.figma.com/design/78Mwi1sCHb4vXfgQcOq2ug/HMC?node-id=3-22&p=f&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <img src={home} className="zoom" alt="home made cake thumbnail" width="50%" />
                     </a>
-                    <a href="https://www.figma.com/design/HLrb6d5KU41anbWdMXu1p8/Event?node-id=41-204&t=ZZAziILlNVxkU2gJ-0" target="_blank" rel="noreferrer">
-                        <h2>Online Flower Shop</h2>
+                    <a href="https://www.figma.com/design/78Mwi1sCHb4vXfgQcOq2ug/HMC?node-id=3-22&p=f&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <h2>Home Made Cake</h2>
                     </a>
-                    <p>Designed a very attractive user interface for an online flower shop website</p>
+                    <p>Designed a very attractive user interface for a home made cake website</p>
                 </div>
 
                 <div className="project">
-                    <a href="https://www.figma.com/design/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
-                        <img src={job} className="zoom" alt="Job app thumbnail" width="100%" />
+                    <a href="https://www.figma.com/design/dzhukcWpY1SOi6YWn2JOs8/Event-booking?node-id=0-1&p=f&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <img src={event} className="zoom" alt="event booking app thumbnail" width="50%" />
                     </a>
-                    <a href="https://www.figma.com/design/UqsJ1aBRfKDw0scyvAvsZG/mobile-app?t=xEQ2S4F9SQQuTgKQ-0" target="_blank" rel="noreferrer">
-                        <h2>Job Seeking App</h2>
+                    <a href="https://www.figma.com/design/dzhukcWpY1SOi6YWn2JOs8/Event-booking?node-id=0-1&p=f&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <h2>Event Booking App</h2>
                     </a>
-                    <p>Designed the job seeking app that helps users find jobs matching their interests</p>
+                    <p>Designed the event booking app that helps users find event matching their interests</p>
                 </div>
 
                 <div className="project">
-                    <a href="https://www.figma.com/design/HmBbl4cmJBCoG3z0UW6lfR/Glass-Morphism-Food-delivery-website--Community-?node-id=0-1&p=f&t=09mQFVsPuRopeaGV-0" target="_blank" rel="noreferrer">
-                        <img src={candyc} className="zoom" alt="Candy Cloud thumbnail" width="100%" />
+                    <a href="https://www.figma.com/design/0DPDXfRvhVhDCk6MRCSJxS/HCI?node-id=1-2&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <img src={zara} className="zoom" alt="ZARA websitr thumbnail" width="100%" />
                     </a>
-                    <a href="https://www.figma.com/design/HmBbl4cmJBCoG3z0UW6lfR/Glass-Morphism-Food-delivery-website--Community-?node-id=0-1&p=f&t=09mQFVsPuRopeaGV-0" target="_blank" rel="noreferrer">
-                        <h2>Candy Cloud</h2>
+                    <a href="https://www.figma.com/design/0DPDXfRvhVhDCk6MRCSJxS/HCI?node-id=1-2&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <h2>ZARA websites</h2>
                     </a>
-                    <p>“Candy Cloud” Sweet Factory Management System Website UI/UX Design (University Group Project)</p>
+                    <p>ZARA Website Recreated UI/UX Design (University Group Project)</p>
                 </div>
 
                 <div className="project">
-                    <a href="https://www.figma.com/design/YPxZEChdAAinfkb7XSFGY0/Untitled?node-id=0-1&p=f&t=rJL0mtLYhdRrTCXy-0" target="_blank" rel="noreferrer">
-                        <img src={web} className="zoom" alt="Craigslist website thumbnail" width="100%" />
+                    <a href="https://www.figma.com/design/insdbFG8IwkU48vP2f1JyZ/customer-management?node-id=4-4&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <img src={clean} className="zoom" alt="Craigslist website thumbnail" width="100%" />
                     </a>
-                    <a href="https://www.figma.com/design/YPxZEChdAAinfkb7XSFGY0/Untitled?node-id=0-1&p=f&t=rJL0mtLYhdRrTCXy-0" target="_blank" rel="noreferrer">
-                        <h2>Craigslist Website</h2>
+                    <a href="https://www.figma.com/design/insdbFG8IwkU48vP2f1JyZ/customer-management?node-id=4-4&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
+                        <h2>“Ceylon Green” Cleaning Management System Website</h2>
                     </a>
-                    <p>Craigslist Website Recreated UI/UX Design (University Group Project)</p>
+                    <p>“Ceylon Green” Cleaning Management System Website UI/UX Design (University Group Project)</p>
+
                 </div>
             </div>
         </div>

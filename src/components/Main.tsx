@@ -11,20 +11,20 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-         <img src={myPhoto} alt="My Avatar" />
+          <img src={myPhoto} alt="My Avatar" />
 
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/nethmi999" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/nethmi-sathsarani-b2a0752b4/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/chalani1224" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/chalani-serasinghe-a6b683347/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
-          <h1>D.P.G.N.N sathsarani</h1>
+          <h1>S.M.C.N.Serasinghe</h1>
           <p>UI/UX Designer</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/nethmi999" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/nethmi-sathsarani-b2a0752b4/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/chalani1224" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/chalani-serasinghe-a6b683347/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
         </div>
       </div>

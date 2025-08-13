@@ -7,10 +7,10 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/nethmi999" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/nethmi-sathsarani-b2a0752b4/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://github.com/chalani1224" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+        <a href="https://www.linkedin.com/in/chalani-serasinghe-a6b683347" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
       </div>
-      <p>A portfolio designed & built by <a href="https://www.linkedin.com/in/nethmi-sathsarani-b2a0752b4/" target="_blank" rel="noreferrer">SATHSARANI</a> 💜</p>
+      <p>A portfolio designed & built by <a href="https://www.linkedin.com/in/chalani-serasinghe-a6b683347/" target="_blank" rel="noreferrer">CHALANI</a> 💜</p>
     </footer>
   );
 }

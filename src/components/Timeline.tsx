@@ -33,7 +33,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(255, 255, 255)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Thopawawa National College, Polonnaruwa</h3>
+            <h3 className="vertical-timeline-element-title">Central College, Kuliyapitiya</h3>
             <h4 className="vertical-timeline-element-subtitle">G.C.E Advanced Level Examination</h4>
             <p>
               Art Stream
@@ -46,7 +46,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(255, 255, 255)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Thopawawa National College, Polonnaruwa</h3>
+            <h3 className="vertical-timeline-element-title">Saranath National College, Kuliyapitiya</h3>
             <h4 className="vertical-timeline-element-subtitle">G.C.E Ordinary Level Examination</h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
