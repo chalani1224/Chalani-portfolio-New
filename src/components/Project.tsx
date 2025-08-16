@@ -4,6 +4,7 @@ import home from '../assets/images/home.png';
 import event from '../assets/images/event.png';
 import zara from '../assets/images/zara.png';
 import clean from '../assets/images/clean.png';
+import police from '../assets/images/police.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -43,10 +44,10 @@ function Project() {
 
                 <div className="project">
                     <a href="https://www.figma.com/design/0DPDXfRvhVhDCk6MRCSJxS/HCI?node-id=1-2&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
-                        <img src={zara} className="zoom" alt="ZARA websitr thumbnail" width="100%" />
+                        <img src={zara} className="zoom" alt="ZARA website thumbnail" width="100%" />
                     </a>
                     <a href="https://www.figma.com/design/0DPDXfRvhVhDCk6MRCSJxS/HCI?node-id=1-2&t=tyLcuWkEzpKQ8PAs-0" target="_blank" rel="noreferrer">
-                        <h2>ZARA websites</h2>
+                        <h2>ZARA website</h2>
                     </a>
                     <p>ZARA Website Recreated UI/UX Design (University Group Project)</p>
                 </div>
@@ -60,6 +61,16 @@ function Project() {
                     </a>
                     <p>“Ceylon Green” Cleaning Management System Website UI/UX Design (University Group Project)</p>
 
+                </div>
+
+                <div className="project">
+                    <a href="https://www.figma.com/design/LocLp7TD56pfYAVFbJIsoR/Police-Redesign?t=FUbTjrXULTxsM6kx-0" target="_blank" rel="noreferrer">
+                        <img src={police} className="zoom" alt="Police website thumbnail" width="100%" />
+                    </a>
+                    <a href="https://www.figma.com/design/LocLp7TD56pfYAVFbJIsoR/Police-Redesign?t=FUbTjrXULTxsM6kx-0" target="_blank" rel="noreferrer">
+                        <h2>Police website</h2>
+                    </a>
+                    <p>Police Website Recreated UI/UX Design </p>
                 </div>
             </div>
         </div>
